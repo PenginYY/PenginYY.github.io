@@ -2,10 +2,56 @@
 <html>
  
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Car Accessories</title>
     <link rel="stylesheet" href="/css/global.css">
 </head>
- 
+<script>
+    function addToProductList() {
+        var accessory = $("#accessory").val();
+        var amount = $("#amount").val();
+        var price = calculatePrice(accessory) * amount;
+
+        const tbodyRef = $('#productList tbody')
+        tbodyRef.before(
+            `<tr>
+            <td>${accessory}</td>
+            <td>${amount}</td>
+            <td>${"$" + price}</td>
+            </tr>`)
+        updateGrossPrice(price)
+        calculateVAT()
+    }
+
+    function calculatePrice(accessory) {
+        // Add your own logic to calculate the price based on the selected accessory
+        switch (accessory) {
+            case "p123":
+                return 50;
+            case "p234":
+                return 30;
+            case "p456":
+                return 20;
+            case "p996":
+                return 40;
+            default:
+                return 0;
+        }
+    }
+    var grossPrice = 0
+    function updateGrossPrice(price) {
+        grossPrice += price;
+        $("#grossPrice").text(grossPrice.toFixed(2));
+    }
+    function calculateVAT() {
+        let vatRate = 0.07;
+        let vatAmount = grossPrice * vatRate;
+        $("#vatAmount").text(vatAmount.toFixed(2));
+        $("#netPrice").text((grossPrice + vatAmount).toFixed(2));
+    }
+
+</script> 
 <body>
     <h1>Car Accessories</h1>
  
@@ -27,11 +73,17 @@
     <h2>Product List</h2>
  
     <table id="productList">
-        <tr>
-            <th>Accessory</th>
-            <th>Amount</th>
-            <th>Price</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Accessory</th>
+                <th>Amount</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        
     </table>
  
     <p class="gross">Gross Price: $<span id="grossPrice">0</span></p>
@@ -39,60 +91,7 @@
     <p class="net">Net Price: $<span id="netPrice">0</span></p>
 
  
-    <script>
- 
-        function addToProductList() {
-            var accessory = document.getElementById("accessory").value;
-            var accessoryName = document.getElementById("accessory").innerText;
-            var amount = document.getElementById("amount").value;
-            var price = calculatePrice(accessory);
- 
-            var table = document.getElementById("productList");
-            var row = table.insertRow(-1);
-            var accessoryCell = row.insertCell(0);
-            var amountCell = row.insertCell(1);
-            var priceCell = row.insertCell(2);
- 
-            accessoryCell.innerHTML = accessory;
-            amountCell.innerHTML = amount;
-            priceCell.innerHTML = "$" + price;
- 
-            updateGrossPrice(price);
-            calculateVAT()
-        }
- 
-        function calculatePrice(accessory) {
-            // Add your own logic to calculate the price based on the selected accessory
-            switch (accessory) {
-                case "p123":
-                    return 50;
-                case "p234":
-                    return 30;
-                case "p456":
-                    return 20;
-                case "p996":
-                    return 40;
-                default:
-                    return 0;
-            }
-        }
-        var grossPrice = 0
-        function updateGrossPrice(price) {
-            var grossPriceElement = document.getElementById("grossPrice");
-            // var totalPrice = parseFloat(totalPriceElement.innerHTML);
-            console.log(grossPrice,price)
-            grossPrice += price;
-            grossPriceElement.innerHTML = grossPrice.toFixed(2);
-        }
-        function calculateVAT() {
-            let grossPriceElement = document.getElementById("grossPrice");
-            let grossPrice = parseFloat(grossPriceElement.innerHTML);
-            let vatRate = 0.07;
-            let vatAmount = grossPrice * vatRate;
-            document.getElementById("vatAmount").textContent = vatAmount.toFixed(2);
-            document.getElementById("netPrice").textContent = (grossPrice + vatAmount).toFixed(2);
-        }
-    </script>
+    
 </body>
  
 </html>
