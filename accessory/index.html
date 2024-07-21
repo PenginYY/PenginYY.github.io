@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="global.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+    <title>Car Accessories</title>
+    
+</head>
+ 
+<body>
+    <div style="text-align: center; font-size: large;" class="bg-info">
+        <h1 style="font-weight: 1000;">Quotation</h1>
+    </div>
+    <h1 class="text-primary">Car Accessories</h1>
+
+    <!-- Table -->
+    <div style="display: flex; align-items: center;">
+        <h2>Product List</h2>
+        <div style="margin-left: 80px">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quotationModal">Add Item</button>
+        </div>
+     </div>
+    
+    <table id="productList" class="table">
+        <thead>
+            <tr>
+                <th>Accessory</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will appear here -->
+        </tbody>   
+    </table>
+    
+    <!-- Modal form -->
+    <div class="modal fade" id="quotationModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info">
+                    <h3 class="modal-title" id="modalLabel">Add New Item</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="accessoryForm">
+                        <label for="accessory">Select an accessory:</label>
+                        <select id="accessory" name="accessory">
+                            <option value="p123">Car Cover</option>
+                            <option value="p234">Seat Covers</option>
+                            <option value="p456">Floor Mats</option>
+                            <option value="p996">Door Visors</option>
+                        </select>
+                        <br>
+                        <label for="amount">Amount:</label>
+                        <input type="number" id="amount" name="amount" min="1" value="1">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="addToProductList()">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--grossPrice-->   <p class="total">Gross Price: $<span id="grossPrice">0</span></p>
+    <!--VAT-->          <p class="total">VAT: $<span id="vatAmount">0</span></p>
+    <!--netPrice-->     <p class="total">Net Price: $<span id="netPrice">0</span></p>
+
+    
+    <script>
+        var grossPrice = 0
+        var vatRate = 0.07
+
+        function addToProductList() {
+            var accessory = $("#accessory").val();
+            var accessoryName = document.getElementById("accessory").innerText;
+            var amount = document.getElementById("amount").value;
+            var price = calculatePrice(accessory)*amount;
+ 
+            var table = document.getElementById("productList").getElementsByTagName('tbody')[0];
+            var row = table.insertRow();
+            var accessoryCell = row.insertCell(0);
+            var amountCell = row.insertCell(1);
+            var priceCell = row.insertCell(2);
+            var actionCell = row.insertCell(3);
+ 
+            accessoryCell.innerHTML = accessory;
+            amountCell.innerHTML = amount;
+            priceCell.innerHTML = "$" + price;
+            actionCell.innerHTML = '<button class="btn btn-danger btn-sm" onclick="deleteItem(this)">Delete</button>';
+ 
+            updatePrice(price);
+            $('#quotationModal').modal('hide');
+        }
+
+        function deleteItem(button) {
+            var row = button.parentNode.parentNode;
+            var price = parseFloat(row.cells[2].innerHTML.replace('$',''));
+            row.parentNode.removeChild(row);
+
+            updatePrice(-price)
+        }
+ 
+        function calculatePrice(accessory) {
+            // Add your own logic to calculate the price based on the selected accessory
+            switch (accessory) {
+                case "p123":
+                    return 50;
+                case "p234":
+                    return 30;
+                case "p456":
+                    return 20;
+                case "p996":
+                    return 40;
+                default:
+                    return 0;
+            }
+        }
+        
+        function updatePrice(price) {
+            var grossPriceElement = $("#grossPrice");
+            // var grossPriceElement = document.getElementById("grossPrice");
+            // var grossPrice = parseFloat(grossPriceElement.innerHTML);
+            console.log(grossPrice,price)
+            grossPrice += price;
+            let vatAmount = grossPrice * vatRate;
+            grossPriceElement.html(grossPrice.toFixed(2));
+            // grossPriceElement.innerHTML = grossPrice.toFixed(2);
+            document.getElementById("vatAmount").textContent = vatAmount.toFixed(2);
+            document.getElementById("netPrice").textContent = (grossPrice + vatAmount).toFixed(2);
+        }
+
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+</body>
+ 
+</html>
