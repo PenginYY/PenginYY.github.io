@@ -1,0 +1,524 @@
+[
+  {
+    "Student ID": 6413006,
+    "Nickname": "Kit",
+    "Scholarship": "No",
+    "Scholarship Hours": 63,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6410219,
+    "Nickname": "Earn",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 63,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6610529,
+    "Nickname": "Nice",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 54.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6410319,
+    "Nickname": "Beam",
+    "Scholarship": "No",
+    "Scholarship Hours": 52,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6510142,
+    "Nickname": "Win",
+    "Scholarship": "No",
+    "Scholarship Hours": 54.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6511267,
+    "Nickname": "Peach",
+    "Scholarship": "No",
+    "Scholarship Hours": 49.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6510044,
+    "Nickname": "Yumi",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 59,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6611997,
+    "Nickname": "Febe",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 63,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6611033,
+    "Nickname": "Daisy",
+    "Scholarship": "No",
+    "Scholarship Hours": 54.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6611280,
+    "Nickname": "Tey",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 63,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6632109,
+    "Nickname": "Thomas",
+    "Scholarship": "No",
+    "Scholarship Hours": 34,
+    "Wai Kru": "",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6610292,
+    "Nickname": "Rebekah",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 41.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6611807,
+    "Nickname": "Gorya",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 7.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6511089,
+    "Nickname": "Amos",
+    "Scholarship": "No",
+    "Scholarship Hours": 26.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6510593,
+    "Nickname": "Baipooh",
+    "Scholarship": "No",
+    "Scholarship Hours": 44.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6410083,
+    "Nickname": "Trix",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6510582,
+    "Nickname": "Jessica",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6338372,
+    "Nickname": "Lynn",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6530137,
+    "Nickname": "Chris",
+    "Scholarship": "No",
+    "Scholarship Hours": 55.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6540030,
+    "Nickname": "Mary",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 11,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6611040,
+    "Nickname": "Sein",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6711337,
+    "Nickname": "Nai",
+    "Scholarship": "No",
+    "Scholarship Hours": 39,
+    "Wai Kru": "J",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6315249,
+    "Nickname": "Friend ",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6413332,
+    "Nickname": "Napat",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 8.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6711048,
+    "Nickname": "Vhiskey",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6715022,
+    "Nickname": "Rina",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 46,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6715015,
+    "Nickname": "Joy",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 9,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6715026,
+    "Nickname": "Cemo",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 41,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6715036,
+    "Nickname": "Channie",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 9,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6631010,
+    "Nickname": "Jasmine",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6620029,
+    "Nickname": "Chakhri",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 45.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6540203,
+    "Nickname": "May",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6540206,
+    "Nickname": "Mary",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 11,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6710626,
+    "Nickname": "Ploy",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 40,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6710477,
+    "Nickname": "Khim",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 12.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6710622,
+    "Nickname": "Sandy",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 40,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6711427,
+    "Nickname": "Pink",
+    "Scholarship": "No",
+    "Scholarship Hours": 30,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6612355,
+    "Nickname": "benie ",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6611808,
+    "Nickname": "Benny",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6712189,
+    "Nickname": "Lin",
+    "Scholarship": "No",
+    "Scholarship Hours": 5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6632788,
+    "Nickname": "OWEN",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6632088,
+    "Nickname": "Jayden",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6712179,
+    "Nickname": "Qiiun",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 24,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6712117,
+    "Nickname": "Hanni",
+    "Scholarship": "No",
+    "Scholarship Hours": 5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6715109,
+    "Nickname": "Lily",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6632041,
+    "Nickname": "Miki",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6712199,
+    "Nickname": "Lucas",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6710341,
+    "Nickname": "Putt",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 45.5,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6715081,
+    "Nickname": "Thi Ri ",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 22,
+    "Wai Kru": "",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6711368,
+    "Nickname": "Yime",
+    "Scholarship": "No",
+    "Scholarship Hours": 32,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6712162,
+    "Nickname": "Finial",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6712027,
+    "Nickname": "Bookie",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6715156,
+    "Nickname": "Que",
+    "Scholarship": "No",
+    "Scholarship Hours": 2.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6712115,
+    "Nickname": "Kate",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 43,
+    "Wai Kru": "J",
+    "King Rama X": "J",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6712102,
+    "Nickname": "Peak",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 7.5,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6712101,
+    "Nickname": "Elena",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 7,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": "J"
+  },
+  {
+    "Student ID": 6620032,
+    "Nickname": "Film",
+    "Scholarship": "No",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  },
+  {
+    "Student ID": 6622007,
+    "Nickname": "Seng",
+    "Scholarship": "Yes",
+    "Scholarship Hours": 0,
+    "Wai Kru": "",
+    "King Rama X": "",
+    "Virgin Mary": ""
+  }
+ ]
